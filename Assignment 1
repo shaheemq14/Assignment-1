@@ -1,0 +1,101 @@
+#Q1
+a= 'shaheem'
+b= [1,2,4,'shaheem']
+c= 2.2
+d= (1,2,4,'shaheem')
+
+#Q2
+var1 = '' #is string
+var2 = '[ DS , ML , Python]' #is string
+var3 = [ 'DS' , 'ML' , 'Python' ] #is list
+var4 = 1. #is float
+​
+#Q3
+a=1
+b=3
+print(a/b) # for division
+print(a%b) # for modulus
+print(a**b) # for giving power i.e. 1x1x1
+print(a//b) # for quoitent
+0.3333333333333333
+1
+1
+0
+
+#Q4
+l=[1,2,3,4,5,6,'shaheem', True, False, 2.1]
+for i in l:
+    print(i)
+    print(type(i))
+    
+1
+<class 'int'>
+2
+<class 'int'>
+3
+<class 'int'>
+4
+<class 'int'>
+5
+<class 'int'>
+6
+<class 'int'>
+shaheem
+<class 'str'>
+True
+<class 'bool'>
+False
+<class 'bool'>
+2.1
+<class 'float'>
+
+#Q5
+a=int(input())
+b=int(input())
+c=0
+if (a/b==0:
+    while(a/b>=b and type(a/b)==int):
+        c+=1
+        a/=b
+    c
+else:
+    print("not divisible")
+        
+#Q6
+l=[1,2,3,4,5,6,7,8,9,10]
+​
+for i in l:
+    if i%3==0:
+        print('Divisible')
+    else:
+        print('Not Divisible')
+Not Divisible
+Not Divisible
+Divisible
+Not Divisible
+Not Divisible
+Divisible
+Not Divisible
+Not Divisible
+Divisible
+Not Divisible
+
+#Q6
+# Mutable = Changable
+l=[1,2,3]
+l[0]=2
+l
+[2, 2, 3]
+
+#Q6
+# Immutable = Not Changable
+s='shaheem'
+s[0]='a'
+​
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+Cell In[29], line 2
+      1 s='shaheem'
+----> 2 s[0]='a'
+
+TypeError: 'str' object does not support item assignment
